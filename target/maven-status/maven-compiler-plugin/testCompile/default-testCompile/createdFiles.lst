@@ -1,0 +1,6 @@
+ru\otus\qa\automation\arquillian\BasicTest.class
+ru\otus\qa\automation\arquillian\ArquillianExistingWarTest.class
+ru\otus\qa\automation\arquillian\ArquillianWebTest.class
+ru\otus\qa\automation\arquillian\WeldTest.class
+ru\otus\qa\automation\arquillian\ArquillianTest.class
+ru\otus\qa\automation\arquillian\MockitoTest.class
