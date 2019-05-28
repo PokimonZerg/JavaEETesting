@@ -15,9 +15,9 @@ Jenkins развивался эволюционно и описание сбор
 https://jenkins.io/doc/book/pipeline/syntax/
 https://jenkins.io/doc/pipeline/steps/workflow-basic-steps/
 
-Адрес Jenkins: 
-Пароль администратора: 
-Пароль пользователя: 
+Адрес Jenkins: http://94.245.89.42/jenkins
+Пароль администратора: user / Delphi123
+Пароль пользователя: otus-user / otus-password
 
 Простейший pipeline
 ```
