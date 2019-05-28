@@ -1,5 +1,6 @@
 # Jenkins
 
+Простейший pipeline
 ```
 pipeline {
     agent none
@@ -11,3 +12,20 @@ pipeline {
         }
     }
 }
+
+Параметры
+`
+pipeline {
+    agent none
+    parameters {
+        choice(name: 'WHO', choices: ['OTUS', 'Java', 'QA'], description: 'Pick something')
+    }
+    stages {
+        stage('My first stage') {
+            steps {
+                echo "Hello ${params.WHO}"
+            }
+        }
+    }
+}
+`
