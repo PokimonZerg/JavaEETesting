@@ -28,9 +28,10 @@ pipeline {
         }
     }
 }
+```
 
 Параметры
-`
+```
 pipeline {
     agent none
     parameters {
@@ -44,10 +45,10 @@ pipeline {
         }
     }
 }
-`
+```
 
 Post actions
-`
+```
 pipeline {
 agent none
     parameters {
@@ -67,4 +68,4 @@ agent none
             }
         }
 }
-`
+```
